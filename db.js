@@ -2,7 +2,7 @@ const mongoose=require('mongoose');
 require('dotenv').config();
 //Define MongoDb connection url
 //const mongoURL='process.env.MONGODB_URL_LOCAL'
-const mongoURL="process.env.MONGODB_URL"
+const mongoURL=process.env.MONGODB_URL
 
 //Set up MongoDb connection
 mongoose.connect(mongoURL,{ //moongose.connect madhe 2 parameters by-default patvave lagtat

@@ -1,11 +1,11 @@
-const objectToConvert={
+/*const objectToConvert={
     name:"Alice",
     age:25
 };
 const json=JSON.stringify(objectToConvert);//Convert object to JSON string
 console.log(json)
 
-console.log(typeof json)
+console.log(typeof json)*/
 
 const express=require('express')//Ikdun aapan server banvayla chalu kela
 const app=express()//app madhe express fn aahe
