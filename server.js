@@ -10,6 +10,8 @@ console.log(typeof json)
 const express=require('express')//Ikdun aapan server banvayla chalu kela
 const app=express()//app madhe express fn aahe
 const db=require('./db.js')
+require('dotenv').config();
+const PORT=process.env.PORT || 3000
 
 const bodyParser=require('body-parser');
 app.use(bodyParser.json());	//req body
@@ -51,6 +53,8 @@ const menuItemRoutes=require('./routes/menuItemRoutes');
 app.use('/person',personRoutes)
 
 app.use('/menu',menuItemRoutes);
-app.listen(3000,function(){	//call back () aahe ha joh vaparla aahe paila function run honaar(main) nantar print honaar server listninng on 3000 port vala je callback karnaar
+
+
+app.listen(PORT,function(){	//call back () aahe ha joh vaparla aahe paila function run honaar(main) nantar print honaar server listninng on 3000 port vala je callback karnaar
     console.log("Server listinning on port 3000")
 })//Ha port no aahe
