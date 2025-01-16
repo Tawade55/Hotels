@@ -1,0 +1,13 @@
+Mongodb installation
+
+nantar mongodb che CRUD operations perform kele shell var tya nantar mongodb compass install kela GUI mahnun
+
+Postman download kelay
+
+Mongoose shikavla hyat mongoose ek odm library aahe ji node js ani database shi interaction karayla madat karte mongoose khup widely use kela jata aadi mongodb driver vaprayche pan hyat le hard coding aahe khup gosti unnecessary aahet jasa ki query taklya nantar pan swatala check karava lagta ki sagla barobar lilay ki nahi pan mongosse madhe vegla scene aahe mongosse swata query check karto ki sagla detailed madhe barobar lilay ki nahi te
+
+package.json madhe jevde pan aaplya project sathi dependency vaparle aahet manjech library vaparle aahet tya saglya package.json madhe list down hotat
+
+body-parser ha ek middleware aahe express js cha joh data ghetto aani toh data kasla pan aasu shakto jasa ki form-data,json data tar toh aaplya la swataun required format madhe aanun deu shakto 
+
+async-await important concept aahe revised karun tev
